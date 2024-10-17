@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticket Booking</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Ticket Booking System</h1>
+        </header>
+        <main>
+            <form id="booking-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="ticket-type">Select Ticket Type:</label>
+                <select id="ticket-type" name="ticket-type" required>
+                    <option value="" disabled selected>Select your option</option>
+                    <option value="regular">Regular Ticket</option>
+                    <option value="vip">VIP Ticket</option>
+                    <option value="student">Student Ticket</option>
+                </select>
+
+                <button type="submit">Book Ticket</button>
+            </form>
+        </main>
+        <footer>
+            <p>&copy; 2024 Ticket Booking System. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
